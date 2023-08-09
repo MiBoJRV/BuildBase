@@ -13,7 +13,8 @@
 
 h1 {
   color: $title-color;
-  font-family: 'Liberation Sans', sans-serif;
+  //font-family: 'Liberation Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 700;
   font-size: 50px;
   display: flex;
@@ -26,15 +27,15 @@ img {
 
 .first {
   //font-family: 'Borel', cursive;
-  //font-family: 'Kanit', sans-serif;
-  font-family: 'Liberation Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  //font-family: 'Liberation Sans', sans-serif;
   font-size: 32px;
   font-weight: 700;
 }
 
 .second {
-  //font-family: 'Kanit', sans-serif;
-  font-family: 'Liberation Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  //font-family: 'Liberation Sans', sans-serif;
   font-size: 32px;
   font-weight: 400;
 }

@@ -3,17 +3,40 @@
 @font-face {
   font-family: "Liberation Sans";
   font-weight: 400;
-  src:
-    url("/fonts/LiberationSans-Regular.woff2") format("woff2"),
-    url("fonts/LiberationSans-Regular.woff") format("woff"),
-    url("fonts/LiberationSans-Regular.ttf") format('truetype');
+  src: url("/fonts/LiberationSans-Regular.woff2") format("woff2"),
+  url("fonts/LiberationSans-Regular.woff") format("woff"),
+  url("fonts/LiberationSans-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "Liberation Sans";
   font-weight: 700;
-  src:
-    url("/fonts/LiberationSans-Bold.woff2") format("woff2"),
-    url("fonts/LiberationSans-Bold.woff") format("woff"),
-    url("fonts/LiberationSans-Bold.ttf") format('truetype');
+  src: url("/fonts/LiberationSans-Bold.woff2") format("woff2"),
+  url("fonts/LiberationSans-Bold.woff") format("woff"),
+  url("fonts/LiberationSans-Bold.ttf") format('truetype');
+}
+
+
+//@font-face {
+//  font-family: "Borel";
+//  src: url("fonts/Borel-Regular.ttf") format('truetype');
+//  src: url("fonts/Borel-Regular.woff") format("woff");
+//  src: url("/fonts/Borel-Regular.woff2") format("woff2");
+//  font-weight: 400;
+//}
+
+@font-face {
+  font-family: "Kanit";
+  font-weight: 400;
+  src: url("/fonts/Kanit-Regular.woff2") format("woff2"),
+  url("fonts/Kanit-Regular.ttf"),
+  url("fonts/Kanit-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kanit";
+  font-weight: 700;
+  src: url("/fonts/Kanit-Bold.woff2") format("woff2"),
+  url("fonts/Kanit-Bold.woff") format("woff"),
+  url("fonts/Kanit-Bold.ttf") format('truetype');
 }
